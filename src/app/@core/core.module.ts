@@ -16,6 +16,7 @@ import { UserData } from './data/users';
 import { ElectricityData } from './data/electricity';
 import { SmartTableData } from './data/smart-table';
 import { UserActivityData } from './data/user-activity';
+import { UserCountData } from './data/user-count';
 import { OrdersChartData } from './data/orders-chart';
 import { ProfitChartData } from './data/profit-chart';
 import { TrafficListData } from './data/traffic-list';
@@ -36,6 +37,7 @@ import { UserService } from './mock/users.service';
 import { ElectricityService } from './mock/electricity.service';
 import { SmartTableService } from './mock/smart-table.service';
 import { UserActivityService } from './mock/user-activity.service';
+import { UserCountService } from './mock/user-count.service';
 import { OrdersChartService } from './mock/orders-chart.service';
 import { ProfitChartService } from './mock/profit-chart.service';
 import { TrafficListService } from './mock/traffic-list.service';
@@ -76,6 +78,7 @@ const DATA_SERVICES = [
   { provide: ElectricityData, useClass: ElectricityService },
   { provide: SmartTableData, useClass: SmartTableService },
   { provide: UserActivityData, useClass: UserActivityService },
+  { provide: UserCountData, useClass: UserCountService },
   { provide: OrdersChartData, useClass: OrdersChartService },
   { provide: ProfitChartData, useClass: ProfitChartService },
   { provide: TrafficListData, useClass: TrafficListService },

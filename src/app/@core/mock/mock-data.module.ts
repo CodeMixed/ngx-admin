@@ -5,6 +5,7 @@ import { UserService } from './users.service';
 import { ElectricityService } from './electricity.service';
 import { SmartTableService } from './smart-table.service';
 import { UserActivityService } from './user-activity.service';
+import { UserCountService } from './user-count.service';
 import { OrdersChartService } from './orders-chart.service';
 import { ProfitChartService } from './profit-chart.service';
 import { TrafficListService } from './traffic-list.service';
@@ -27,6 +28,7 @@ const SERVICES = [
   ElectricityService,
   SmartTableService,
   UserActivityService,
+  UserCountService,
   OrdersChartService,
   ProfitChartService,
   TrafficListService,
